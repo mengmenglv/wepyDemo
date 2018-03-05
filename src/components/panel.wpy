@@ -29,7 +29,7 @@
 <template>
   <view class="panel">
     <slot name="title">
-      Title
+      Title默认标题
     </slot>
     <slot>
     </slot>

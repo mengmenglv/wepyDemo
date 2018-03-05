@@ -1,0 +1,24 @@
+<style lang="less">
+.user-center {
+  text-align: center;
+}
+</style>
+
+<template>
+  <view class="user-center">欢迎来到二级页面</view>
+  <progress percent="20" show-info />
+
+</template>
+
+<script>
+  import wepy from 'wepy'
+
+  export default class Text extends wepy.page {
+    config = {
+      navigationBarTitleText: 'test'
+    }
+    onLoad() {
+        console.log('跳转')
+    }
+    }
+</script>

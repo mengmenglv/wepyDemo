@@ -1,0 +1,6 @@
+module.exports = {
+  text: '使用wxs',
+  filter: function (num) {
+    return num.toFixed(2);
+  }
+};
